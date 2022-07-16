@@ -1,5 +1,5 @@
 # openwrt-dsl-graph
-Additional files to add a DSL spectrum lie statistics graph
+Additional files to add a DSL spectrum line statistics graph
 to OpenWRT.
 
 The page is included in the Status dropdown menu and appears
