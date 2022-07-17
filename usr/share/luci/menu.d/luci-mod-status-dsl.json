@@ -1,0 +1,14 @@
+{
+         "admin/status/dsl_analysis": {
+                 "title": "DSL line statistics",
+                 "order": 7,
+                 "action": {
+                         "type": "view",
+                         "path": "status/dsl_analysis"
+                 },
+                 "depends": {
+                         "acl": [ "luci-mod-status-dsl" ],
+                         "uci": { "network": { "@dsl": true } }
+                 }
+        }
+}
